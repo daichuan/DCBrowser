@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0560473885E0DF4574DF4B9D /* libPods-DCBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9678E2DF1489AE767D1C7A7 /* libPods-DCBrowser.a */; };
+		EF47574620215A8000B543AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47574520215A8000B543AF /* AppDelegate.m */; };
+		EF47574E20215A8000B543AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF47574D20215A8000B543AF /* Assets.xcassets */; };
+		EF47575120215A8000B543AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF47574F20215A8000B543AF /* LaunchScreen.storyboard */; };
+		EF47575420215A8000B543AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47575320215A8000B543AF /* main.m */; };
+		EF47575F20215B8F00B543AF /* DCHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47575E20215B8F00B543AF /* DCHomeVC.m */; };
+		EF4757612021605600B543AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4757602021605600B543AF /* Main.storyboard */; };
+		EF4757642021784C00B543AF /* DCSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4757632021784C00B543AF /* DCSearchBar.m */; };
+		EF4757672021914C00B543AF /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4757662021914C00B543AF /* UIImage+Tool.m */; };
+		EF4DA4202022E334000676B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4DA41F2022E334000676B8 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CB678B47CFE0E25068E5E64 /* Pods-DCBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCBrowser/Pods-DCBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		4CD76C01DF2CB5AD0A0A5225 /* Pods-DCBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCBrowser/Pods-DCBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		C9678E2DF1489AE767D1C7A7 /* libPods-DCBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DCBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF47574120215A8000B543AF /* DCBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF47574420215A8000B543AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF47574520215A8000B543AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF47574D20215A8000B543AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF47575020215A8000B543AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF47575220215A8000B543AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF47575320215A8000B543AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF47575D20215B8F00B543AF /* DCHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCHomeVC.h; sourceTree = "<group>"; };
+		EF47575E20215B8F00B543AF /* DCHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCHomeVC.m; sourceTree = "<group>"; };
+		EF4757602021605600B543AF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EF4757622021784C00B543AF /* DCSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCSearchBar.h; sourceTree = "<group>"; };
+		EF4757632021784C00B543AF /* DCSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCSearchBar.m; sourceTree = "<group>"; };
+		EF4757652021914C00B543AF /* UIImage+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tool.h"; sourceTree = "<group>"; };
+		EF4757662021914C00B543AF /* UIImage+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tool.m"; sourceTree = "<group>"; };
+		EF4DA41F2022E334000676B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF47573E20215A8000B543AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0560473885E0DF4574DF4B9D /* libPods-DCBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AB76970B704D8118BF63E04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9678E2DF1489AE767D1C7A7 /* libPods-DCBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF47573820215A8000B543AF = {
+			isa = PBXGroup;
+			children = (
+				EF47574320215A8000B543AF /* DCBrowser */,
+				EF47574220215A8000B543AF /* Products */,
+				F111A3D34FA5B759DCC3FEE3 /* Pods */,
+				2AB76970B704D8118BF63E04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF47574220215A8000B543AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF47574120215A8000B543AF /* DCBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF47574320215A8000B543AF /* DCBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EF47574420215A8000B543AF /* AppDelegate.h */,
+				EF47574520215A8000B543AF /* AppDelegate.m */,
+				EF47575D20215B8F00B543AF /* DCHomeVC.h */,
+				EF47575E20215B8F00B543AF /* DCHomeVC.m */,
+				EF4757622021784C00B543AF /* DCSearchBar.h */,
+				EF4757632021784C00B543AF /* DCSearchBar.m */,
+				EF4757652021914C00B543AF /* UIImage+Tool.h */,
+				EF4757662021914C00B543AF /* UIImage+Tool.m */,
+				EF4757602021605600B543AF /* Main.storyboard */,
+				EF47574D20215A8000B543AF /* Assets.xcassets */,
+				EF47574F20215A8000B543AF /* LaunchScreen.storyboard */,
+				EF47575220215A8000B543AF /* Info.plist */,
+				EF47575320215A8000B543AF /* main.m */,
+				EF4DA41F2022E334000676B8 /* Images.xcassets */,
+			);
+			path = DCBrowser;
+			sourceTree = "<group>";
+		};
+		F111A3D34FA5B759DCC3FEE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CB678B47CFE0E25068E5E64 /* Pods-DCBrowser.debug.xcconfig */,
+				4CD76C01DF2CB5AD0A0A5225 /* Pods-DCBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF47574020215A8000B543AF /* DCBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF47575720215A8000B543AF /* Build configuration list for PBXNativeTarget "DCBrowser" */;
+			buildPhases = (
+				5015E9032E671F46ADE352BF /* [CP] Check Pods Manifest.lock */,
+				EF47573D20215A8000B543AF /* Sources */,
+				EF47573E20215A8000B543AF /* Frameworks */,
+				EF47573F20215A8000B543AF /* Resources */,
+				4EBFFA459B5922B95148DF52 /* [CP] Embed Pods Frameworks */,
+				36390CA0631F1BB1D9C444B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCBrowser;
+			productName = DCBrowser;
+			productReference = EF47574120215A8000B543AF /* DCBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF47573920215A8000B543AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = cheyr;
+				TargetAttributes = {
+					EF47574020215A8000B543AF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF47573C20215A8000B543AF /* Build configuration list for PBXProject "DCBrowser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF47573820215A8000B543AF;
+			productRefGroup = EF47574220215A8000B543AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF47574020215A8000B543AF /* DCBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF47573F20215A8000B543AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4757612021605600B543AF /* Main.storyboard in Resources */,
+				EF4DA4202022E334000676B8 /* Images.xcassets in Resources */,
+				EF47575120215A8000B543AF /* LaunchScreen.storyboard in Resources */,
+				EF47574E20215A8000B543AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36390CA0631F1BB1D9C444B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCBrowser/Pods-DCBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBFFA459B5922B95148DF52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCBrowser/Pods-DCBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5015E9032E671F46ADE352BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DCBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF47573D20215A8000B543AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47575F20215B8F00B543AF /* DCHomeVC.m in Sources */,
+				EF47575420215A8000B543AF /* main.m in Sources */,
+				EF4757672021914C00B543AF /* UIImage+Tool.m in Sources */,
+				EF4757642021784C00B543AF /* DCSearchBar.m in Sources */,
+				EF47574620215A8000B543AF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF47574F20215A8000B543AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF47575020215A8000B543AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF47575520215A8000B543AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF47575620215A8000B543AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF47575820215A8000B543AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB678B47CFE0E25068E5E64 /* Pods-DCBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHX694MS79;
+				INFOPLIST_FILE = DCBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daichuan.www.DCBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF47575920215A8000B543AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD76C01DF2CB5AD0A0A5225 /* Pods-DCBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHX694MS79;
+				INFOPLIST_FILE = DCBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daichuan.www.DCBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF47573C20215A8000B543AF /* Build configuration list for PBXProject "DCBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF47575520215A8000B543AF /* Debug */,
+				EF47575620215A8000B543AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF47575720215A8000B543AF /* Build configuration list for PBXNativeTarget "DCBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF47575820215A8000B543AF /* Debug */,
+				EF47575920215A8000B543AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF47573920215A8000B543AF /* Project object */;
+}
